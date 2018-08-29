@@ -5,7 +5,7 @@ import sys
 import requests
 from lxml import html
 
-from tasks.tasks import process_article, success_handler, error_handler
+from tasks.tasks import process_article
 
 
 NEW_STATESMAN_BASE_URL = "https://www.newstatesman.com"
